@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project: Travel webpage</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align:center;
+            font-size: 50px;
+        }
+        h2 {
+            color: red;
+            text-align:center;
+        }
+        img {
+            width: 150px;
+            margin-left: 205px;
+        }
+        body {
+            color: white;
+            background-color: yellow;
+        }
+        a{
+            color:rgb(115, 155, 255);
+        }
+        p{
+            color:rgb(45, 240, 123);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Travel to Japan</h1>
+<img src = "https://www.kasandbox.org/programming-images/avatars/aqualine-tree.png">
+
+<ul>
+    <li><a href = "#main-info">Main info</a></li>
+    <li><a href = "#climate">Climate</a></li>
+    <li><a href = "#biodiversity">Biodiversity</a></li>
+</ul>
+
+<h2 id = "main-info">Main info</h2>
+<p>Japan (Japanese: 日本, Nippon [ɲippoꜜɴ] (About this soundlisten) or Nihon [ɲihoꜜɴ] (About this soundlisten)) is an island country in East Asia, located in the northwest Pacific Ocean. It is bordered on the west by the Sea of Japan, and extends from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south.
+
+    Japan is the eleventh-most populous country in the world, as well as one of the most densely populated and urbanized. About three-fourths of the country's terrain is mountainous, concentrating its population of 125.57 million on narrow coastal plains. </p>
+
+<h2 id = "climate">Climate</h2>
+<p>The climate of Japan is predominantly temperate but varies greatly from north to south. The northernmost region, Hokkaido, has a humid continental climate with long, cold winters and very warm to cool summers.
+    In the Sea of Japan region on Honshu's west coast, northwest winter winds bring heavy snowfall during winter. In the summer, the region sometimes experiences extremely hot temperatures because of the foehn.
+
+    The Pacific coast features a humid subtropical climate that experiences milder winters with occasional snowfall and hot, humid summers because of the southeast seasonal wind. The Ryukyu and Nanpō Islands have a subtropical climate, with warm winters and hot summers. Precipitation is very heavy, especially during the rainy season. </p>
+
+<h2 id = "biodiversity">Biodiversity</h2>
+<p>Japan has nine forest ecoregions which reflect the climate and geography of the islands. They range from subtropical moist broadleaf forests in the Ryūkyū and Bonin Islands, to temperate broadleaf and mixed forests in the mild climate regions of the main islands, to temperate coniferous forests in the cold, winter portions of the northern islands.</p>
+</body>
+</html>
