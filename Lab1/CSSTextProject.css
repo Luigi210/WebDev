@@ -11,9 +11,12 @@
         body{
             font-family: monospace;
             font-size: 125%;
+            font-style: italic;
         }
         #lyrics{
             text-align: right;
+            font-size : 100%;
+            font-weight : 700;
         }
         .list{
             text-align: center;
