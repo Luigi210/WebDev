@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+
+        .block-first{
+            width: 454px;
+            height: 618px;
+            align-self: center;
+            background-position: 0 0;
+            background-size: 454px 618px;
+            flex-basis: 454px;
+            margin-left: 530px;
+            margin-right: -15px;
+            margin-top: 135px;
+            image-rendering: -webkit-crisp-edges;
+            background-image: url(1.png);
+        }
+        img{
+            font: inherit;
+            vertical-align: baseline;
+        }
+        .image{
+            margin-left: 153px;
+            margin-top: 100px;
+            animation-delay: 5s;
+            position: absolute;
+            opacity: 0;
+        }
+        .backImage{
+
+            -webkit-transition: opacity 1.5s ease-in;
+            transition: opacity 1.5s ease-in;
+            z-index: 2;
+        }
+        .backImage1, .backImage{
+            opacity: 1;
+            visibility: visible;
+        }
+        /*.block-second{
+            color: #262626;
+
+            margin-left: 50px;
+            margin-top: 12px;
+            padding-left: 30px;
+
+            display: flex;
+        }*/
+        .new{
+            /*align-items: center;*/
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            border-radius: 1px;
+            width: 350px;
+            height: 380px;
+            margin-top: 105px;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .data{
+            padding: 6px;
+            margin: 10px 18px 0;
+            font-size: 12px;
+            width: 72%;
+            font-family: Arial, sans-serif;
+            box-shadow: none;
+            border-radius: 2px;
+            border: 1px solid #dadada;
+            text-overflow: ellipsis;
+            /*border: white;*/
+        }
+        .data:focus{
+            outline: none;
+        }
+        .mybut{
+
+            color: white;
+            width: 75%;
+            margin: 20px 18px 0;
+            padding: 6px;
+
+            font-family: Arial, sans-serif;
+            border-radius: 3px;
+            border: none;
+            background-color: #B2DFFC;
+        }
+        .mybut:focus{
+            outline: none;
+        }
+        .input{
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        input:placeholder-shown+input:placeholder-shown+button,
+        input:placeholder-shown+button {
+
+            background-color: #B2DFFC;
+            cursor: default;
+        }
+
+        input:not(:placeholder-shown)+input:not(:placeholder-shown)+button {
+
+            background-color: #0095F6;
+            cursor: pointer;
+
+        }
+
+
+
+
+        .line-first{
+            border:none;
+            height: 1px;
+            width: 95px;
+            /*margin: 40px 0px 10px 45px;*/
+            margin-bottom: 10px;
+            margin-top: 30px;
+            background-color: #dadada;
+        }
+        .line-second{
+            border:none;
+            height: 1px;
+            width: 95px;
+            /*margin: 0px 0 0px 205px;*/
+            margin-bottom: 10px;
+            margin-top: -7px;
+            background-color: #dadada;
+        }
+
+        .word{
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            margin : -20px 0px 0px;
+            color: #8E9EC1;
+        }
+        .cl{
+            height: 75px;
+            width: 350px;
+            /*margin: -8px 0 0 -8px;*/
+            /*display: block;*/
+            /*margin: 0 0 10px;*/
+            border-radius: 2px;
+            align-items: center;
+            background-color: white;
+            border: 1px solid #dadada;
+            margin-top: 530px;
+            margin-left: -350px;
+        }
+        .links{
+            height: 75px;
+            width: 350px;
+            /*margin: -8px 0 0 -8px;*/
+            /*display: block;*/
+            /*margin: 0 0 10px;*/
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            border-radius: 2px;
+            align-items: center;
+            background-color: white;
+            /*border: 1px solid #dadada;*/
+            margin-top: 630px;
+            margin-left: -350px;
+        }
+        .foot-line{
+            font-family: "HelveticaNowDisplay ExtraLight", sans-serif;
+            font-size: 12px;
+            margin-top: 25px;
+            margin-left: 555px;
+            color: #8E8E8E;
+
+        }
+        .ft-words{
+            margin: 0 10px;
+            text-decoration: none;
+            /*margin-left: 500px;*/
+            color: #8E8E8E;
+        }
+        .about-inst{
+            margin-top: 25px;
+            font-family: "HelveticaNowDisplay ExtraLight", sans-serif;
+            font-size: 12px;
+            margin-left: 750px;
+            color: #8E8E8E;
+        }
+    </style>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5F_zohoKUzFlgXjTNk59_XgbN7TCtQdvFg&usqp=CAU">
+</head>
+<body>
+    <div>
+        <div class="block-first">
+            <div>
+                <img class="image backImage" src="https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg">
+                <img class="image " src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg">
+                <img class="image backImage1" src="https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg">
+                <img class="image " src="https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg">
+                <img class="image " src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg">
+            </div>
+        </div>
+        <div class="block-second" style=" height: 748px;
+                                          width: 350px;
+                                          /*margin: -8px 0 0 -8px;*/
+                                          display: flex;
+                                          margin-left: 975px;
+                                          margin-top: -700px;
+                                        ">
+            <div class="new">
+                <div>
+                    <img src="inst-logo.png" style="
+                                                    align-items: center;
+                                                    margin-top: 30px;
+                                                    ">
+                </div>
+                <div>
+                    <form class="input">
+                        <div>
+                            <input class="data" name="email" type="text" placeholder="Номер телефона, имя пользователя или эл. адрес">
+                        </div>
+                        <div>
+                            <input class="data" name="pass" type="password" minlength="6" placeholder="Пароль">
+                        </div>
+                            <div><button class="mybut" type="submit">Войти</button>
+                        </div>
+                        <div style="display: block;">
+                            <div class="line-first" style="margin-left: 45px">
+
+                            </div >
+                            <div class="word">
+                                ИЛИ
+                            </div>
+                            <div class="line-second" style="margin-left: 210px">
+
+                            </div>
+                        </div>
+                        <div style="display: flex">
+                            <div>
+                                <a><img src="fb.png" style="width: 20px; height: 20px; margin-top: 13px;
+                                                            margin-left: 78px;
+
+                                                            "></a>
+                            </div>
+                            <a style="color: #385195;
+                                      font-family: Arial, sans-serif;
+                                      font-size: 15px;
+                                      margin-top: 15px;
+                                      margin-left: 5px;
+                                      text-align: center;
+                                      text-decoration: none;
+                                    " href="https://www.facebook.com/">  Войти через Facebook</a>
+                        </div>
+                        <div>
+                            <a href="" style="
+                                             text-decoration: none;
+                                             font-size: 12px;
+                                             margin-top: 20px;
+                                             font-family: Arial, sans-serif;
+                                             ">Забыли пароль?</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+                <div class="cl">
+                    <div style="text-align: center;
+                                font-size: 14px;
+                                font-family: Arial, sans-serif;
+                                margin-top: 25px;
+                                ">
+                        У вас ещё нет аккаунта? <a href="https://www.youtube.com/" style="text-decoration: none">Зарегистрироваться</a>
+                    </div>
+                </div>
+            <div class="links">
+                <p style="margin-left: 100px;
+                          margin-top: -5px;
+                          font-family: Arial, sans-serif;
+                         ">Установите приложение.</p>
+                <div class="images">
+                    <a href="https://www.youtube.com/?feature=youtu.be"><img src="app.png"  style="
+                             width: 136px;
+                             height: 40px;
+                             margin-left: 30px;
+                             " ></a>
+                    <a   href="https://www.youtube.com/?feature=youtu.be"><img src="googleplay.png"
+                                      style="width: 136px;
+                                      height: 40px;
+                                      align-items: center;
+                                      margin-left: 10px;
+                                        "></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-line"><a class="ft-words" href="?">Информация</a><a class="ft-words" href="?">Блог</a><a class="ft-words" href="?">Вакансии</a><a class="ft-words" href="?">Помощь</a><a class="ft-words" href="?">API</a><a class="ft-words" href="?">Конфиденциальность</a class="ft-words" href="?"><a class="ft-words" href="?">Условия</a><a class="ft-words" href="?">Популярные аккаунты</a><a class="ft-words" href="?">Хэштеги</a><a class="ft-words" href="?">Места</a></div>
+        <div class="foot-line" style="margin: 10px"><a class="ft-words" href="?" style="margin-left: 550px">Красота</a><a class="ft-words" href="?">Танцы и выступления</a><a class="ft-words" href="?">Фитнес</a><a class="ft-words" href="?">Еда и напитки</a><a class="ft-words" href="?">Дом и сад</a><a class="ft-words" href="?">Музыка</a><a class="ft-words" href="?">Изобразительное исскуство</a></div>
+        <div class="about-inst">© 2021 Instagram from Facebook</div>
+    </footer>
+</body>
+</html>
