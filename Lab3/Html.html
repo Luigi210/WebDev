@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPeznG6LK16yZ70cv9p-KcIITtk6ASnWOUA&usqp=CAU">
+    <style>
+        input[type="checkbox"]:checked+span{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header style="text-align: center">My Todo App</header>
+        <div class="inputField">
+            <input type="text" placeholder="Add your new todo">
+            <button class="adding">Add</button>
+
+        </div>
+        <ul class="todoList">
+            <li><i class="fa fa-trash-o"></i></li>
+        </ul>
+        <div class="footer">
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+            <button>Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
